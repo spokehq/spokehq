@@ -68,3 +68,142 @@
 		.social li.facebook a {background:transparent url(img/facebook_2x.jpg) no-repeat;background-size:14px 22px;}
 		.social li.linkdin a {background:transparent url(img/linkedin_2x.jpg) no-repeat;background-size:21px 22px;}
 		}
+	
+	
+	
+/*
+#logo-svg {
+  display:block; 
+  fill: #aa7f3d;
+  fill: url("#MyGradient");
+  stroke: #6CC04A;
+  stroke-miterlimit: 5;
+}
+
+.animate-draw {
+  fill-opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration: 1;
+  
+  animation-name: drawline, fadestroke, fillin;
+  animation-duration: 4s, 1s, 1s;
+  animation-delay: 0s, 3.5s, 3.5s;
+}
+
+#draw-mark {
+  stroke-dashArray: 1100;
+  stroke-dashoffset: 1100; 
+}
+
+#draw-frame { 
+  animation-delay: 1s, 3.5s, 3.5s;
+  animation-duration: 3.5s, 1s, 1s; 
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+
+#draw-text { 
+  animation-delay: 2s, 3.5s, 3.5s; 
+  animation-duration: 2s, 1s, 1s; 
+  stroke-dashArray: 300;
+  stroke-dashoffset: 300;
+}
+
+@keyframes drawline {
+  to { stroke-dashOffset: 0; }
+}
+
+@keyframes fadestroke {
+  to { stroke-opacity: 0; }
+}
+
+@keyframes fillin {
+  from { fill-opacity: 0; }
+  to { fill-opacity: 1; }
+}	
+*/
+
+
+
+
+
+
+
+
+
+
+#mychanic-svg {
+  display:block; 
+  fill: #aa7f3d;
+  fill: url("#MyGradient");
+  stroke: #6CC04A;
+  stroke-miterlimit: 5;
+}
+
+.animate-draw2 {
+  fill-opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration: 1;
+  
+  animation-name: drawline, fadestroke, fillin;
+  animation-duration: 4s, 1s, 1s;
+  animation-delay: 0s, 3.5s, 3.5s;
+}
+
+#draw-mark {
+  stroke-dashArray: 1100;
+  stroke-dashoffset: 1100; 
+  
+  
+  fill-opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration: 1;
+  
+  animation-name: drawline, fadestroke, fillin;
+  animation-duration: 1s, 1s, 1s;
+  animation-delay: 0s, 1s, 1s;
+}
+
+
+#draw-frame { 
+  animation-delay: 1s, 3.5s, 3.5s;
+  animation-duration: 3.5s, 1s, 1s; 
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+
+#draw-text, #draw-tm, .draw-tagline,
+#draw-line-top, #draw-line-bottom { 
+  fill-opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration: 1;
+ 
+  animation-name: fillin;
+	
+	
+  animation-delay:1.5s; 
+  animation-duration:1s; 
+  stroke: none;
+}
+.draw-tagline {animation-duration:1.5s;}
+#fade-turn {animation-delay:2s;}
+#fade-your {animation-delay:2.25s; }
+#fade-own {animation-delay:2.5s; }
+#fade-wrench2 {animation-delay:2.75s; }
+
+@keyframes drawline {
+  to { stroke-dashOffset: 0; }
+}
+
+@keyframes fadestroke {
+  to { stroke-opacity: 0; }
+}
+
+@keyframes fillin {
+  from { fill-opacity: 0; }
+  to { fill-opacity: 1; }
+}	
